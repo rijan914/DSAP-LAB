@@ -1,0 +1,14 @@
+%construct a continuous sine wave having amplitude 5 unit and frequency 3hz
+%. plot the signal 
+clc;
+clear all ;
+close all;
+a=5 ;
+f=3;
+t=0:0.001:1;
+z=a*sin(2*pi*f*t);
+plot(t,x);
+xlabel('time');
+ylabel('amplitude');
+title('continuous sine/Rijan Bhandari/ACE077BCT066')
+grid on;
